@@ -34,7 +34,7 @@ const Navber = () => {
       {/* NORMAL NAVBAR (unchanged design) */}
       <div className="py-3 w-full overflow-hidden nav-ignore-click">
         <div className="flex justify-between items-center container mx-auto px-4">
-          <img src={logo} alt="logo" />
+          <h1 className=' fonset font-story text-4xl font-bold bg-linear-to-b from-[#e97a12] to-[#B923E1] bg-clip-text text-transparent'>PORTFOLIO</h1>
 
           <img
             src={menu_open}

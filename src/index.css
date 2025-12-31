@@ -1,4 +1,5 @@
 @import "tailwindcss";
+
 body{
   background: #000;
   color:white;
@@ -14,4 +15,7 @@ body{
 
 html {
   scroll-behavior: smooth;
+}
+.fonset{
+  font-family: "Germania One", system-ui;
 }

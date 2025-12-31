@@ -12,7 +12,7 @@ const Footer = () => {
 
           {/* Left */}
           <div className="flex flex-col gap-4 max-w-md">
-            <img src={footer_logo} alt="" className="w-40" />
+            <h1 className=' fonset font-story text-5xl font-bold bg-linear-to-b from-[#e97a12] to-[#B923E1] bg-clip-text text-transparent'>PORTFOLIO</h1>
             <p className="text-[16px] sm:text-[18px] lg:text-[20px]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Vitae reprehenderit beatae odio facilis ipsam
