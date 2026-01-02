@@ -24,14 +24,14 @@ const Mywork = () => {
   
 
   return (
-    <div>
+    <div className='w-full overflow-hidden'>
     <div id='work' className='flex flex-col items-center justify-center gap-20 mx-[170] my-20'>
       <div className=' relative'>
         <h1 className='text-[40px] sm:text-[70px] lg:text-[80px] font-semibold px-8'>My latest work</h1>
         <img src={theme_pattern} alt="" className=' absolute bottom-1 right-3 lg:right-0 -z-10 w-32.5 sm:w-40  lg:w-auto'/>
       </div>
       <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-3'>
-         <div className='w-105 h-70 overflow-hidden rounded-2xl hover:scale-105 transition-all duration-300 hover:border-yellow-400 border-2'>
+         <div className='lg:w-105 lg:h-70 overflow-hidden rounded-2xl hover:scale-105 transition-all duration-300 hover:border-yellow-400 border-2'>
           <a href="https://rent-car-lemon-eight.vercel.app" target='blang' className='w-full h-full relative'>
             <div className='h-1/2 flex'>
               <img src={img1} alt="" className='w-1/2 object-cover object-left ]'/>
@@ -46,7 +46,7 @@ const Mywork = () => {
           </a>
           
         </div>
-         <div className='w-105 h-70 overflow-hidden rounded-2xl hover:scale-105 transition-all duration-300 hover:border-yellow-400 border-2'>
+         <div className='lg:w-105 h-70 overflow-hidden rounded-2xl hover:scale-105 transition-all duration-300 hover:border-yellow-400 border-2'>
           <a href="https://movieses-rust.vercel.app" target='blank' className='w-full h-full relative'>
             <div className=''>
               <img src={img4} alt="" className='h-9/12 object-cover object-left'/>
@@ -60,7 +60,7 @@ const Mywork = () => {
             <div className=' absolute z-50 top-3 right-3'><PiCursorClickFill className='text-2xl text-yellow-400'/></div>
           </a>
         </div>
-         <div className='w-105 h-70 overflow-hidden rounded-2xl hover:scale-105 transition-all duration-300 hover:border-yellow-400 border-2'>
+         <div className='lg:w-105 h-70 overflow-hidden rounded-2xl hover:scale-105 transition-all duration-300 hover:border-yellow-400 border-2'>
           <a href="https://euphonious-caramel-18dfbf.netlify.app" target='blank' className='w-full h-full relative'>
             <div className='h-1/2 flex'>
               <img src={img7} alt="" className='w-1/2 object-cover object-left'/>
@@ -74,7 +74,7 @@ const Mywork = () => {
             <div className=' absolute z-50 top-3 right-3'><PiCursorClickFill className='text-2xl text-yellow-400'/></div>
           </a>
         </div>
-         <div className='w-105 h-70 overflow-hidden rounded-2xl hover:scale-105 transition-all duration-300 hover:border-yellow-400 border-2'>
+         <div className='lg:w-105 h-70 overflow-hidden rounded-2xl hover:scale-105 transition-all duration-300 hover:border-yellow-400 border-2'>
           <a href="https://figma-filw.vercel.app" target='blank' className='w-full h-full relative'>
             <div className='h-1/2 flex '>
               <img src={img10} alt="" className='w-1/2 object-cover object-center ]'/>
@@ -88,7 +88,7 @@ const Mywork = () => {
             <div className=' absolute z-50 top-3 right-3'><PiCursorClickFill className='text-2xl text-yellow-400'/></div>
           </a>
         </div>
-         <div className='w-105 h-70 overflow-hidden rounded-2xl hover:scale-105 transition-all duration-300 hover:border-yellow-400 border-2'>
+         <div className='lg:w-105 h-70 overflow-hidden rounded-2xl hover:scale-105 transition-all duration-300 hover:border-yellow-400 border-2'>
           <a href="https://digital-assets-ecommerce.vercel.app" target='blank' className='w-full h-full relative'>
             <div className=''>
               <img src={img13} alt="" className='h-1/2 object-cover object-left'/>
